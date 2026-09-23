@@ -5,49 +5,49 @@
 },
 
 {
-  pergunta: "2. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
+  pergunta: "2. Quantas vezes exatas eu sonhei com você.",
+  opcoes: ["Quatro", "Duas", "Cinco", "Seis"],
   correta: 0
 },
 
 {
-  pergunta: "3. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "3. O que faria eu me lembrar de você imediatamente.",
+  opcoes: ["Yoshiki", "Chase Atlantic", "Pokémon", "Todas"],
+  correta: 3
 },
 
 {
-  pergunta: "4. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "4. Minha maior forma de demonstrar carinho/amor.",
+  opcoes: ["Irittar", "'Eu te amo'", "Cartinhas", "Todas"],
+  correta: 3
 },
 
 {
-  pergunta: "5. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "5. Shipp mais sagrado pra mim (e que eu dediquei pra você)",
+  opcoes: ["Ivantill", "Sasamiya", "Lapuh", "Kazuscara"],
+  correta: 2
 },
 
 {
-  pergunta: "6. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "6. Minha pelúcia favorita",
+  opcoes: ["Cachorro com cara de tadinho", "Pocchaco", "Você", "Rampo cabeçudo"],
+  correta: 2
 },
 
 {
-  pergunta: "7. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "7. Qual animal a gente provavelmente vai ter quando a gente for morar juntos?",
+  opcoes: ["Coelho", "Gato", "Hamster", "Peixe gluglu"],
+  correta: 1
 },
 
 {
-  pergunta: "8. coloque sua pergunta aqui",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
-  correta: 0
+  pergunta: "8. O shipp que eu mais dediquei pra você",
+  opcoes: ["Ivantill", "Emunene", "Yoshikaru", "Mizuena"],
+  correta: 2
 },
 
 {
-  pergunta: "9. coloque sua pergunta aqui",
+  pergunta: "9. Primeira música que eu te dediquei",
   opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
   correta: 0
 },
