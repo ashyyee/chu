@@ -48,12 +48,12 @@
 
 {
   pergunta: "9. Primeira música que eu te dediquei",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
+  opcoes: ["Harvey - Her´s", "Something About You - Eyedress, Deny May", "Lucy~ - Corbon Amodio", "He's my Man - Luvcat"],
   correta: 0
 },
 
 {
-  pergunta: "10. coloque sua pergunta aqui",
+  pergunta: "10. ",
   opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
   correta: 0
 },
