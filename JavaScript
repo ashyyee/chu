@@ -53,7 +53,7 @@
 },
 
 {
-  pergunta: "10. ",
-  opcoes: ["Resposta A", "Resposta B", "Resposta C", "Resposta D"],
+  pergunta: "10. Meus três personagens favoritis em ordem.",
+  opcoes: ["Mizuki, Ivan, Tsukasa", "Ivan, Mizuki, Tsukasa", "Ivan, Chocola, Mizuki", "Chocola, Ivan, Mizuki"],
   correta: 0
 },
