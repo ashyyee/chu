@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoshikaru gayzinhos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         QUIZ
+    ========================== -->
+    <main id="quiz">
+
+        <div class="quiz-container">
+
+            <h1>buuu</h1>
+
+            <!-- Barra de progresso -->
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+
+                <span id="progress-text">0%</span>
+            </div>
+
+            <!-- Pergunta -->
+            <div class="question-area">
+                <h2 id="pergunta"></h2>
+
+                <div id="opcoes"></div>
+            </div>
+
+            <!-- Mensagem de acerto/erro -->
+            <p id="mensagem"></p>
+
+            <!-- Botão -->
+            <button id="continuar" class="hidden">
+                Continuar
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         CARTA
+    ========================== -->
+    <main id="carta" class="hidden">
+
+        <div class="carta-container">
+
+            <!-- Imagem central como título -->
+            <img
+                src="imagens/titulo.png"
+                alt="Título da carta"
+                class="titulo-carta"
+            >
+
+
+            <!-- PRIMEIRA PARTE
+                 TEXTO | IMAGEM
+            -->
+            <section class="carta-linha">
+
+                <div class="carta-texto">
+                    <p>
+                        Coloque aqui o primeiro texto da sua carta.
+                        Você pode escrever o que quiser e deixar
+                        esse espaço maior se precisar.
+                    </p>
+                </div>
+
+                <div class="carta-imagem">
+                    <img
+                        src="imagens/imagem1.jpg"
+                        alt="Foto 1"
+                    >
+                </div>
+
+            </section>
+
+
+            <!-- SEGUNDA PARTE
+                 IMAGEM | TEXTO
+            -->
+            <section class="carta-linha invertida">
+
+                <div class="carta-texto">
+                    <p>
+                        Coloque aqui o segundo texto da sua carta.
+                        Essa parte fica invertida em relação à anterior.
+                    </p>
+                </div>
+
+                <div class="carta-imagem">
+                    <img
+                        src="imagens/imagem2.png"
+                        alt="Foto 2"
+                    >
+                </div>
+
+            </section>
+
+
+            <!-- TERCEIRA PARTE
+                 TEXTO | IMAGEM
+            -->
+            <section class="carta-linha">
+
+                <div class="carta-texto">
+                    <p>
+                        E aqui você pode colocar mais uma parte
+                        da sua carta, lembrança ou declaração.
+                    </p>
+                </div>
+
+                <div class="carta-imagem">
+                    <img
+                        src="imagens/imagem3.png"
+                        alt="Foto 3"
+                    >
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
