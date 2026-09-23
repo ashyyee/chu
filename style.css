@@ -1,0 +1,302 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #ffe6ef;
+    color: #5a2639;
+}
+
+
+/* =========================
+   ESCONDER ELEMENTOS
+========================= */
+
+.hidden {
+    display: none !important;
+}
+
+
+/* =========================
+   QUIZ
+========================= */
+
+#quiz {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 25px;
+    padding: 30px 22px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(120, 50, 80, 0.15);
+}
+
+.quiz-container h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   BARRA DE PROGRESSO
+========================= */
+
+.progress-area {
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 18px;
+    background: #f3cbd9;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    background: #e75480;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+#progress-text {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #c83e68;
+}
+
+
+/* =========================
+   PERGUNTAS
+========================= */
+
+#pergunta {
+    font-size: 21px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.opcao {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #f0a9c0;
+    border-radius: 15px;
+    background: #fff7fa;
+    color: #5a2639;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.opcao:hover {
+    background: #ffe0ea;
+    transform: scale(1.02);
+}
+
+.opcao:disabled {
+    cursor: default;
+}
+
+
+/* =========================
+   MENSAGEM
+========================= */
+
+#mensagem {
+    min-height: 25px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BOTÃO CONTINUAR
+========================= */
+
+#continuar {
+    margin-top: 15px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 15px;
+    background: #e75480;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#continuar:hover {
+    background: #d94370;
+    transform: scale(1.04);
+}
+
+
+/* =========================
+   CARTA
+========================= */
+
+#carta {
+    width: 100%;
+    padding: 35px 18px 60px;
+}
+
+.carta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+/* =========================
+   TÍTULO DA CARTA
+========================= */
+
+.titulo-carta {
+    display: block;
+    width: min(80%, 450px);
+    max-height: 250px;
+    object-fit: contain;
+    margin: 0 auto 50px;
+}
+
+
+/* =========================
+   LINHAS DA CARTA
+========================= */
+
+.carta-linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.carta-linha.invertida .carta-texto {
+    order: 2;
+}
+
+.carta-linha.invertida .carta-imagem {
+    order: 1;
+}
+
+
+/* =========================
+   TEXTO
+========================= */
+
+.carta-texto {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.carta-texto p {
+    white-space: pre-line;
+}
+
+
+/* =========================
+   IMAGENS
+========================= */
+
+.carta-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.carta-imagem img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 600px) {
+
+    .quiz-container {
+        padding: 25px 18px;
+    }
+
+    .quiz-container h1 {
+        font-size: 24px;
+    }
+
+    #pergunta {
+        font-size: 19px;
+    }
+
+    .opcao {
+        padding: 14px 10px;
+        font-size: 15px;
+    }
+
+    .titulo-carta {
+        width: 90%;
+        margin-bottom: 35px;
+    }
+
+    /*
+       No celular continuamos alternando
+       texto/imagem para manter o padrão.
+    */
+
+    .carta-linha {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-bottom: 45px;
+    }
+
+    .carta-linha.invertida .carta-texto,
+    .carta-linha.invertida .carta-imagem {
+        order: initial;
+    }
+
+    .carta-linha.invertida .carta-imagem {
+        order: 1;
+    }
+
+    .carta-linha.invertida .carta-texto {
+        order: 2;
+    }
+
+    .carta-texto {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .carta-imagem img {
+        max-width: 100%;
+    }
+}
